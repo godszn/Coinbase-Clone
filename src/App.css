@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+.logo-img {
+    width: 85%;
+}
+
+.links {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 600;
+}
+
+.links a{
+    position: relative;
+    cursor: pointer;
+}
+
+.links a::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(#ec52e5, #b75ad9, #0804d9bf);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: .7s;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
+
+.btc-gtc-link a{
+  position: relative;
+  cursor: pointer;
+}
+
+.btc-gtc-link a::after{
+    content: '';
+    position: absolute;
+    background: linear-gradient(#ec52e5, #b75ad9, #0804d9bf);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: .7s;
+}
+
+.btc-gtc-link a:hover::after {
+    width:100%;
+}
+
+.login-wrapper {
+    cursor: pointer;
+    transition: all ease-in-out .6s;
+}
+
+.login-wrapper:hover {
+  background-image: linear-gradient(blue , red) ;
+  transition: all ease-in-out .6s;
+}
+
+.login-wrapper {
+    background: linear-gradient(#ec52e5,#b75ad9, #0804d9ad);
+}
+
+.btc-gtc-link {
+    font-weight: 600;
+}
+
+.main-container-wrapper {
+    background: linear-gradient(#ec52e5,#b75ad9, #0804d9);
+    position: relative;
+    flex-direction: column;
+}
+
+.leading {
+    line-height: 3rem;
+}
+
+.brief-btn-wrapper {
+    width: fit-content;
+    margin: 1rem;
+}
+
+.brief-btn {
+    background-color: white;
+    color:#ec52e5 ;
+    transition: all ease-in-out .7s;
+    cursor: pointer;
+}
+
+.brief-btn:hover {
+    color: white !important;
+    background-color: #ec52e5;
+    transition: all ease-in-out .7s;
+}
+
+.phone-widget {
+    width: 100%;
+}
+
+.path1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.path1 svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 250px;
+}
+
+.path1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.welcome-text > h1 {
+    background: linear-gradient(45deg ,#ec52e5 , #0804d9 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-weight: bolder !important;
+}
+
+.welcome-button {
+    background-image: linear-gradient(#ec52e5, #b75ad9, #0804d9bf);
+    transition: all ease-in-out .7s;
+    cursor: pointer;
+}
+
+.welcome-button:hover {
+    background-image: linear-gradient(blue , red) ;
+}
+
+.welcomeimg {
+    width: 89%;
+}
+
+.expenses-wrapper {
+    background-image: linear-gradient(#ec52e5, #b75ad9,#12091cbf);
+    position: relative;
+}
+
+.path2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.path2 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px); 
+    height: 150px;
+}
+
+.shape-fill2 {
+    fill: #FFFFFF;
+}
+
+.welcome-text h1{
+    position: relative;
+    cursor: pointer;
+}
+
+.welcome-text h1::after {
+    content: '';
+    position: absolute;
+    background-color:#ec52e5;
+    height: 5px;
+    width: 7%;
+    left: 0;
+    bottom: -5px;
+    border-radius: 1rem;
+    transition: .7s;
+}
+
+.expenses-nav-wrapper {
+    border-bottom: 1px solid grey !important;
+}
+
+.expenses-link a {
+    color: #ec52e5;
+    font-weight: bolder !important;
+}
+
+.expenses-reserves-container {
+    width: 36%;
+}
+
+.time-wrapper {
+    background-image: linear-gradient(#ec52e5, #b75ad9, #0804d9bf);
+    color: white;
+}
+
+.transfer-header {
+    padding: .9rem;
+    border-bottom: 1px solid grey;
+}
+
+.custom-shape-divider-top-1691857537 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1691857537 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 154px;
+}
+
+.path3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.path3 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 154px;
+    transform: rotateY(180deg);
+}
+
+.path3 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.experience-text > h1 {
+    background: linear-gradient(45deg ,#ec52e5 , #0804d9 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-weight: bolder !important;
+    position: relative;
+    cursor: pointer;
+}
+
+.experience-text h1::after {
+    content: '';
+    position: absolute;
+    background-color:#ec52e5;
+    height: 5px;
+    width: 10%;
+    left: 0;
+    bottom: -5px;
+    border-radius: 1rem;
+    transition: .7s;
+}
+
+.experience-button {
+    background-image: linear-gradient(#ec52e5, #b75ad9, #0804d9bf);
+    transition: all ease-in-out .7s;
+    cursor: pointer;
+}
+
+.experience-button:hover {
+    background-image: linear-gradient(blue , red) ;
+}
+
+.nel {
+    width: 100%;
+}
