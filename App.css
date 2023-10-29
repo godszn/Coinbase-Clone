@@ -667,3 +667,616 @@ body {
     font-weight: 400;
     font-size: small;
 }
+
+.dropdown-wrapper {
+    display: none;
+}
+
+/* Media queries */
+
+@media (max-width: 319px) {
+    .nav-links {
+        display: none !important;
+    }
+
+    .btc-gtc-wrapper {
+       display: none !important;
+    }
+
+    .dropdown-wrapper{
+        display: flex;      
+        padding: 0.2rem;
+        box-shadow: 1px 2px 6px lightgray;
+        border-radius: 0.2rem;
+        background-color: azure;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbrand {
+        padding: .5rem;
+    }
+
+    .base-wrapper > img{
+        width: 60%;
+    }
+    
+    .path1 {
+        display: none;
+    }
+
+    .mobile-path1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .mobile-path1 svg {
+        width: calc(100% + 1.3px);
+        height: 72px;
+    }
+    
+    .mobile-path1 .shape-fill-mb1 {
+        fill: #FFFFFF;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav-links {
+        display: none !important;
+    }
+    
+    .btc-gtc-wrapper {
+       display: none !important;
+    }
+
+    .dropdown-wrapper{
+        display: flex;      
+        padding: 0.2rem;
+        box-shadow: 1px 2px 6px lightgray;
+        border-radius: 0.2rem;
+        background-color: azure;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .navbrand {
+        padding: .5rem !important;
+    }
+
+    .right-nav-wrapper {
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+    }
+
+    .main-container-wrapper{
+        padding: 1rem !important;
+        height: fit-content !important;
+    }
+
+    .briefing-container {
+        flex-direction: column-reverse;
+        align-items: center !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .briefing-text {
+        width: 100% !important;
+        font-size: smaller !important;
+    }
+
+    .briefing-text-wrapper {
+        margin: 0 !important;
+    }
+
+    .leading {
+        text-align: left;
+        font-size: smaller !important;
+    }
+
+    .briefing-widget-wrapper {
+        margin: 0 !important;
+        margin-top: 2rem !important;
+        width: 100%;
+        margin-bottom: 2rem !important;
+    }
+
+    .brief-btn-wrapper {
+        margin: 0!important;
+        margin-top: 1rem !important;
+    }
+
+    .base-wrapper > img{
+        width: 60%;
+    }
+    
+    .path1 {
+        display: none;
+    }
+
+    .custom-shape-divider-bottom-1695056794 {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1695056794 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+    .custom-shape-divider-bottom-1695056794 svg {
+        width: calc(100% + 1.3px);
+        height: 44px;
+    }
+
+    .welcome-container {
+        flex-direction: column-reverse !important;
+    }
+
+    .welcome-widget-wrapper {
+        margin: 0 !important;
+    }
+
+    .welcome-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .welcome-wrapper img {
+        width: 100%;
+    }
+
+    .welcome-text-wrapper {
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .welcome-text h1::after {
+        left: 10px;
+        width: 56px;
+    }
+
+    .welcome-text p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .nav-links {
+        display: none !important;
+    }
+    
+    .btc-gtc-wrapper {
+       display: none !important;
+    }
+
+    .dropdown-wrapper{
+        display: flex;      
+        padding: 0.2rem;
+        box-shadow: 1px 2px 6px lightgray;
+        border-radius: 0.2rem;
+        background-color: azure;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .navbrand {
+        padding: .5rem !important;
+    }
+
+    .right-nav-wrapper {
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+    }
+
+    .main-container-wrapper{
+        padding: 1rem !important;
+        height: fit-content !important;
+    }
+
+    .briefing-container {
+        flex-direction: row-reverse;
+        align-items: center !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .briefing-text {
+        width: 100% !important;
+        font-size: smaller !important;
+    }
+
+    .briefing-text-wrapper {
+        margin: 0 !important;
+        width: 62%;
+    }
+
+    .leading {
+        text-align: left;
+        font-size: smaller !important;
+    }
+
+    .briefing-widget-wrapper {
+        margin: 0 !important;
+        margin-top: 2rem !important;
+        width: 100%;
+        margin-bottom: 2rem !important;
+    }
+
+    .brief-btn-wrapper {
+        margin: 0!important;
+        margin-top: 1rem !important;
+    }
+
+    .base-wrapper > img{
+        width: 100%;
+    }
+    
+    .path1 {
+        display: none;
+    }
+
+    .custom-shape-divider-bottom-1698540385 {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    
+    .custom-shape-divider-bottom-1698540385 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+    .custom-shape-divider-bottom-1698540385 svg {
+        width: calc(126% + 1.3px);
+        height: 112px;
+    }
+
+    .welcome-container {
+        flex-direction: column-reverse !important;
+    }
+
+    .welcome-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .welcome-widget-wrapper {
+        margin: 0 !important;
+    }
+
+    .welcome-wrapper img {
+        width: 100%;
+    }
+
+    .welcome-text-wrapper {
+        width: 100%;
+        align-items: center;
+    }
+
+    .welcome-text h1::after {
+        left: 42px;
+        width: 56px;
+    }
+
+    .welcome-text p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){ 
+    .nav-links {
+        display: none !important;
+    }
+    
+    .btc-gtc-wrapper {
+       display: none !important;
+    }
+
+    .dropdown-wrapper{
+        display: flex;      
+        padding: 0.2rem;
+        box-shadow: 1px 2px 6px lightgray;
+        border-radius: 0.2rem;
+        background-color: azure;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .navbrand {
+        padding: .5rem !important;
+    }
+
+    .right-nav-wrapper {
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+    }
+    
+    .main-container-wrapper{
+        padding: 1rem !important;
+        height: fit-content !important;
+    }
+
+    .briefing-container {
+        flex-direction: row-reverse;
+        align-items: center !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .briefing-text {
+        width: 100% !important;
+        font-size: smaller !important;
+    }
+
+    .briefing-text-wrapper {
+        margin: 0 !important;
+        width: 62%;
+    }
+
+    .leading {
+        text-align: left;
+        font-size: inherit !important;
+    }
+
+    .lg {
+        font-size: large !important;
+    }
+
+    .briefing-widget-wrapper {
+        margin: 0 !important;
+        margin-top: 2rem !important;
+        width: 100%;
+        margin-bottom: 2rem !important;
+    }
+
+    .brief-btn-wrapper {
+        margin: 0!important;
+        margin-top: 1rem !important;
+    }
+
+    .base-wrapper > img{
+        width: 100%;
+    }
+    
+    .path1 {
+        display: none;
+    }
+
+    .custom-shape-divider-bottom-1698540385 {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    
+    .custom-shape-divider-bottom-1698540385 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+    .custom-shape-divider-bottom-1698540385 svg {
+        width: calc(126% + 1.3px);
+        height: 112px;
+    }
+}
+/* @media (min-width : 375px) and (max-width: 424px) {
+    .nav-links {
+        display: none !important;
+    }
+    
+    .btc-gtc-wrapper {
+       display: none !important;
+    }
+
+    .dropdown-wrapper{
+        display: flex;      
+        padding: 0.2rem;
+        box-shadow: 1px 2px 6px lightgray;
+        border-radius: 0.2rem;
+        background-color: azure;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .navbrand {
+        padding: .5rem !important;
+    }
+
+    .right-nav-wrapper {
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+    }
+
+    .main-container-wrapper{
+        padding: 1rem !important;
+        height: fit-content !important;
+    }
+
+    .briefing-container {
+        flex-direction: column-reverse;
+        align-items: center !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .briefing-text {
+        width: 100% !important;
+        font-size: smaller !important;
+    }
+
+    .briefing-text-wrapper {
+        margin: 0 !important;
+    }
+
+    .leading {
+        text-align: left;
+        font-size: smaller !important;
+    }
+
+    .briefing-widget-wrapper {
+        margin: 0 !important;
+        margin-top: 3rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .brief-btn-wrapper {
+        margin: 0!important;
+    }
+
+    .base-wrapper > img{
+        width: 60%;
+    }
+    
+    .path1 {
+        display: none;
+    }
+
+    .custom-shape-divider-bottom-1695056794 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1695056794 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+    .custom-shape-divider-bottom-1695056794 svg {
+        width: calc(100% + 1.3px);
+        height: 44px;
+    }
+} */
+/* 
+@media (min-width : 425px) and (max-width: 767px) {
+    .nav-links {
+       padding: .4rem !important;
+       margin: 0 !important;
+    }
+    
+    .btc-gtc-wrapper {
+     
+    }
+
+    .btc-gtc-wrapper a{
+      font-size: small;
+    }
+
+    .links {
+      margin-left: .5rem !important;
+    }
+
+    .links a{
+        font-size: small;
+    }
+
+    .login-wrapper {
+        padding-left: .5rem !important ;
+        padding-right: .5rem !important;
+    }
+
+    .dropdown-wrapper{
+        display: none !important;  
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .navbrand {
+        padding: .5rem !important;
+    }
+
+    .right-nav-wrapper {
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+    }
+
+    .main-container-wrapper{
+        padding: 1rem !important;
+        height: fit-content !important;
+    }
+
+    .briefing-container {
+        align-items: center !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .briefing-text {
+        width: 100% !important;
+        font-size: smaller !important;
+    }
+
+    .briefing-text-wrapper {
+        margin: 0 !important;
+    }
+
+    .leading {
+        text-align: left;
+        font-size: smaller !important;
+    }
+
+    .briefing-widget-wrapper {
+        margin: 0 !important;
+        margin-top: 3rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .brief-btn-wrapper {
+        margin: 0!important;
+    }
+
+    .base-wrapper > img{
+        width: 60%;
+    }
+    
+    .path1 {
+        display: none;
+    }
+
+    .custom-shape-divider-bottom-1695056794 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1695056794 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+    .custom-shape-divider-bottom-1695056794 svg {
+        width: calc(100% + 1.3px);
+        height: 44px;
+    }
+} */
